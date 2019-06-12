@@ -12,7 +12,7 @@ def selectIsland () :
     selectIsland = random.choice(list(islands.keys()))
     islands[selectIsland] -= 1
     print(selectIsland) #select island
-    if islands[selectIsland] == 0:
+    if islands[selectIsland] is 0:
         del islands[selectIsland]
 
 for i in range(1, 255):
